@@ -9,7 +9,7 @@
   <body>
     <main>
       <div class="mainContent">
-        <div class="erroText"><p>Isto é apenas um teste...</p></div>
+        <div class="erroText" id="erroText"><p>Isto é apenas um teste...</p></div>
 
         <img
           src="assets/purin text.png"
@@ -41,10 +41,47 @@
 
           <input type="password" name="password" placeholder="Sua senha" />
 
-          <br /><br />
+          <br />
 
           <button class="loginButton" id="loginButton">Entrar</button>
+
+          <p>
+            <a class="registerButton" id="register" href="#">Registrar</a>
+          </p>
+
         </div>
+
+        <!--Registro-->
+
+          <div class="registerCard" id="registerCard">
+          <img
+            class="purinIcon"
+            src="assets/purin icon.png"
+            alt="pumpumpurin-icon"
+            height="80px"
+            draggable="false"
+          />
+
+          <label for="user">Escolha um nome de usuário:</label>
+
+          <br />
+
+          <input type="text" name="text" placeholder="Nome de usuário" />
+
+          <br />
+
+          <label for="password">Escolha uma senha:</label>
+
+          <br />
+
+          <input type="password" name="password" placeholder="Sua senha" />
+
+          <br />
+
+          <button class="loginButton" id="registerButton">Registrar</button>
+
+          <p><a class="registerButton" id="backLogin" href="#">Login</a></p>
+
       </div>
     </main>
     <script src="script.js"></script>

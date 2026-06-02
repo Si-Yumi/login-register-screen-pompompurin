@@ -57,7 +57,7 @@ main {
 }
 
 .purinIcon {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 }
 
 input {
@@ -86,4 +86,25 @@ input {
     color: #7A4E2D;
     border: 2px solid #7A4E2D;
     background-color: #FFF6D8;
+}
+
+/*registro*/
+
+.registerButton {
+    font-family: "Fredoka", sans-serif;
+    color: #7A4E2D;
+}
+
+.registerCard {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 3px solid #7A4E2D;
+    border-radius: 15px;
+    background-color: #FFF6D8;
+    display: none;
 }
