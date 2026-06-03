@@ -68,7 +68,7 @@ input {
 }
 
 .loginButton {
-    width: 30%;
+    width: 35%;
     height: 10%;
     border-radius: 5px;
     border: 2px solid #ffffff;
@@ -107,4 +107,53 @@ input {
     border-radius: 15px;
     background-color: #FFF6D8;
     display: none;
+}
+
+/*celular*/
+@media (max-width: 932px) {
+    .mainContent {
+        width: 100%;
+    }
+
+    .erroText {
+        width: 80%;
+    }
+
+    .loginCard {
+        width: 80%;
+    }
+}
+
+/*tablet*/
+@media (min-width: 650px) and (max-width: 1333px) {
+    .mainContent {
+        width: 50%;
+    }
+
+    .erroText {
+        width: 30%;
+    }
+
+    .loginCard {
+        width: 80%;
+    }
+}
+
+/*desktop*/
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .mainContent {
+        width: 40%;
+    }
+
+    .erroText {
+        width: 30%;
+    }
+
+    .loginCard {
+        width: 80%;
+    }
+
+    .purinIcon {
+    transform: translateY(-1px);
+}
 }
